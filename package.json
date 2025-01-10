@@ -1,0 +1,21 @@
+{
+  "name": "cse341-web-services",
+  "version": "1.0.0",
+  "date": "2025-01-09",
+  "create-date": "2025-01-09",
+  "description": "CSE 341 Web Services",
+  "keywords": [],
+  "author": "vern wolfley",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "license": "MIT"
+}
