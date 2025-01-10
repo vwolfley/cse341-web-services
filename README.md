@@ -4,7 +4,7 @@
 
 My repository for BYUI CSE 341 - Web Services class projects
 
-## CSE 341 - Web Servicew
+## CSE 341 - Web Services
 
 ### Winter 2025
 
