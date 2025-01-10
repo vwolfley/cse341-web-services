@@ -22,6 +22,30 @@ My repository for BYUI CSE 341 - Web Services class projects
 
 ---
 
+## Development Instructions
+
+### Quickstart Instructions
+
+1. [Clone this repo](https://github.com/vwolfley/cse341-web-services) - `https://github.com/vwolfley/cse341-web-services`
+2. `cd` into the `cse341-web-services` folder.
+3. Install the dependencies with `npm install`.
+
+### Available Scripts
+
+In the project directory, you can run:
+
+#### `npm run start`
+
+- Compiles raw source code into both `debug` and `production` versions.
+- RRuns the application in development mode.
+- Opens [http://localhost:3000](http://localhost:3000) in your browser for live preview.
+- The page automatically reloads whenever you make edits.
+- Displays linting errors and warnings directly in the console for easier debugging.
+
+## Deployment Instructions
+
+---
+
 ### Project List
 
 
