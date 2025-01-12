@@ -44,6 +44,10 @@ In the project directory, you can run:
 
 ## Deployment Instructions
 
+- Push to GitHub repository
+- Deploy to Render.com
+- [https://cse341-web-services-vw.onrender.com/](https://cse341-web-services-vw.onrender.com/)
+
 ---
 
 ### Project List
