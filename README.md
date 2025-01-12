@@ -34,13 +34,23 @@ My repository for BYUI CSE 341 - Web Services class projects
 
 In the project directory, you can run:
 
-#### `npm run start`
+#### `npm run dev`
 
 - Compiles raw source code into both `debug` and `production` versions.
-- RRuns the application in development mode.
+- Runs the application in development mode.
 - Opens [http://localhost:3000](http://localhost:3000) in your browser for live preview.
 - The page automatically reloads whenever you make edits.
 - Displays linting errors and warnings directly in the console for easier debugging.
+
+#### `npm run start`
+
+- Compiles raw source code into `production` versions.
+- Runs the application in production mode.
+- Used to deploy on Render.com
+
+#### `npm run test`
+
+---
 
 ## Deployment Instructions
 
