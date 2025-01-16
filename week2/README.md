@@ -2,7 +2,10 @@
 
 ## How to run the application
 
-- Run `npm install` and `npm start` from the backend folder in the terminal
+- Run `npm install`
+- Change the entry point or main in the package.json to the folder you are working in
+- Example ` "main": "backend/app.js",`
+- Then `npm run dev` in the terminal
 
 Run frontend/index.html with live server or just paste the file path into a browser.
 

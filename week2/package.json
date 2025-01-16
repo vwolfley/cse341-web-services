@@ -6,7 +6,7 @@
     "description": "CSE 341 Web Services week 2 team assignment",
     "keywords": [],
     "author": "vern wolfley",
-    "main": "app.js",
+    "main": "backend-stretch/app.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "node app.js",
@@ -14,7 +14,9 @@
     },
     "dependencies": {
         "body-parser": "^1.20.3",
-        "express": "^4.21.2"
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "mongodb": "^6.12.0"
     },
     "devDependencies": {
         "nodemon": "^3.1.9"
