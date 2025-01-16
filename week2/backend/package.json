@@ -1,0 +1,23 @@
+{
+    "name": "cse341-week2",
+    "version": "1.0.0",
+    "date": "2025-01-13",
+    "create-date": "2025-01-13",
+    "description": "CSE 341 Web Services week 2 team assignment",
+    "keywords": [],
+    "author": "vern wolfley",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js",
+        "dev": "open http://localhost:8080 && nodemon app.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.20.3",
+        "express": "^4.21.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.9"
+    },
+    "license": "MIT"
+}
