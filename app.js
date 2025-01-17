@@ -34,7 +34,7 @@ app.use("/contacts", contactsRoutes);
  * Values from .env (environment) file
  *************************/
 const port = process.env.PORT || 8080;
-const host = process.env.HOST;
+const host = process.env.HOST || 'localhost';
 
 /* ***********************
  * Log statement to confirm server operation
