@@ -4,12 +4,13 @@
  *******************/
 
 // Import the express module
-const routes = require("express").Router();
+const express = require("express");
+const router = express.Router();
 
 const professionalController = require("../controllers/professional");
 
 // GET /routes/professional
-routes.get("/", professionalController.getData);
+router.get("/", professionalController.getData);
 // localhost:8080/professional/
 
-module.exports = routes;
+module.exports = router;

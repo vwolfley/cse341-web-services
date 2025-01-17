@@ -1,0 +1,23 @@
+{
+    {
+        "firstName": "Tom",
+        "lastName": "Clancy",
+        "email": "tom.clancy@email.com",
+        "favoriteColor": "blue",
+        "birthday": "05/12/1955"
+    },
+    {
+        "firstName": "Jack",
+        "lastName": "Ryan",
+        "email": "jack.ryan@email.com",
+        "favoriteColor": "green",
+        "birthday": "02/21/1975"
+    },
+    {
+        "firstName": "John",
+        "lastName": "Clark",
+        "email": "john.clark@email.com",
+        "favoriteColor": "black",
+        "birthday": "08/15/1962"
+    },
+}

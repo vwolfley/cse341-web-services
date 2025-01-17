@@ -6,7 +6,7 @@
     "description": "CSE 341 Web Services week 2 team assignment",
     "keywords": [],
     "author": "vern wolfley",
-    "main": "backend-stretch/app.js",
+    "main": "./backend-stretch/app.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "node app.js",
