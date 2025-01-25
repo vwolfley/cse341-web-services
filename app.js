@@ -17,17 +17,12 @@ const app = express();
 app.use(bodyParser.json());
 
 app.use((req, res, next) => {
-    res.setHeader("Access-Control-Allow-Origin", "*");
-    next();
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  next();
 });
 
 // Import the routes from the routes folder
-const lesson1Routes = require("./src/routes/lesson1");
-const contactsRoutes = require("./src/routes/contacts");
-
-// Use the routes
-app.use("/", lesson1Routes);
-app.use("/contacts", contactsRoutes);
+app.use("/", require("./src/routes"));
 
 /* ***********************
  * Local Server Information
@@ -40,11 +35,11 @@ const host = process.env.HOST || "localhost";
  * Log statement to confirm server operation
  *************************/
 mongodb.initDb((err, mongodb) => {
-    if (err) {
-        console.log(err);
-    } else {
-        app.listen(port, () => {
-            console.log(`app connected to DB and listening on ${host}:${port}`);
-        });
-    }
+  if (err) {
+    console.log(err);
+  } else {
+    app.listen(port, () => {
+      console.log(`app connected to DB and listening on ${host}:${port}`);
+    });
+  }
 });

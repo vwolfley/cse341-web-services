@@ -1,12 +1,48 @@
 // LOCALHOST
+
 ###
+GET http://localhost:8080/
+
+###
+GET http://localhost:8080/johnclark
+
+### Get all contacts
 GET http://localhost:8080/contacts
 
-###
+### Get contact by id
 GET http://localhost:8080/contacts/678996ed004410fee44434c1
 
+### Create contact
+POST http://localhost:8080/contacts HTTP/1.1
+content-type: application/json
 
+{
+    "firstName": "Bart",
+    "lastName": "Mancuso",
+    "email": "bart.mancuso@email.com",
+    "favoriteColor": "silver",
+    "birthday": "03/18/1963"
+}
+
+### PUT contact
+PUT http://localhost:8080/contacts/67944dde5ef2a01ca76678f3 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Ding",
+    "lastName": "Chavez",
+    "email": "ding.chavez@email.com",
+    "favoriteColor": "od green",
+    "birthday": "04/15/1977"
+}
+
+### DELETE contact
+DELETE http://localhost:8080/contacts/679450f4c7d32e9362bddbb5 HTTP/1.1
+
+
+// ********************************************************
 // Render.com
+// ********************************************************
 
 ###
 GET https://cse341-web-services-vw.onrender.com/
@@ -14,9 +50,36 @@ GET https://cse341-web-services-vw.onrender.com/
 ###
 GET https://cse341-web-services-vw.onrender.com/johnclark
 
-###
+### Get all contacts
 GET https://cse341-web-services-vw.onrender.com/contacts
 
 
-###
+### Get contact by id
 GET https://cse341-web-services-vw.onrender.com/contacts/678996ed004410fee44434c1
+
+### Create contact
+POST https://cse341-web-services-vw.onrender.com/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Bart",
+    "lastName": "Mancuso",
+    "email": "bart.mancuso@email.com",
+    "favoriteColor": "silver",
+    "birthday": "03/18/1963"
+}
+
+### PUT contact
+PUT https://cse341-web-services-vw.onrender.com/contacts/67944dde5ef2a01ca76678f3 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Ding",
+    "lastName": "Chavez",
+    "email": "ding.chavez@email.com",
+    "favoriteColor": "od green",
+    "birthday": "04/15/1977"
+}
+
+### DELETE contact
+DELETE https://cse341-web-services-vw.onrender.com/contacts/679450f4c7d32e9362bddbb5 HTTP/1.1

@@ -1,23 +1,65 @@
 {
-    {
-        "firstName": "Tom",
-        "lastName": "Clancy",
-        "email": "tom.clancy@email.com",
-        "favoriteColor": "blue",
-        "birthday": "05/12/1955"
-    },
-    {
-        "firstName": "Jack",
-        "lastName": "Ryan",
-        "email": "jack.ryan@email.com",
-        "favoriteColor": "green",
-        "birthday": "02/21/1975"
-    },
-    {
-        "firstName": "John",
-        "lastName": "Clark",
-        "email": "john.clark@email.com",
-        "favoriteColor": "black",
-        "birthday": "08/15/1962"
-    },
+  {
+    "firstName": "Tom",
+    "lastName": "Clancy",
+    "email": "tom.clancy@email.com",
+    "favoriteColor": "blue",
+    "birthday": "05/12/1955"
+  },
+  {
+    "firstName": "Jack",
+    "lastName": "Ryan",
+    "email": "jack.ryan@email.com",
+    "favoriteColor": "green",
+    "birthday": "02/21/1975"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Clark",
+    "email": "john.clark@email.com",
+    "favoriteColor": "black",
+    "birthday": "08/15/1962"
+  },
+  {
+    "firstName": "Ding",
+    "lastName": "Chavez",
+    "email": "ding.chavez@email.com",
+    "favoriteColor": "od green",
+    "birthday": "04/15/1977"
+  },
+  {
+    "firstName": "James",
+    "lastName": "Greer",
+    "email": "james.greer@email.com",
+    "favoriteColor": "blue",
+    "birthday": "11/21/1951"
+  },
+  {
+    "firstName": "Marko",
+    "lastName": "Ramius",
+    "email": "marko.ramius@email.com",
+    "favoriteColor": "red",
+    "birthday": "02/12/1950"
+  },
+  {
+    "firstName": "Bart",
+    "lastName": "Mancuso",
+    "email": "bart.mancuso@email.com",
+    "favoriteColor": "silver",
+    "birthday": "03/18/1963"
+  },
+  {
+    "firstName": "Ronald",
+    "lastName": "Jones",
+    "email": "ronald.jones@email.com",
+    "favoriteColor": "orange",
+    "birthday": "06/13/1971"
+  },
+  {
+    "firstName": "Robert",
+    "lastName": "Ritter",
+    "email": "robert.ritter@email.com",
+    "favoriteColor": "blue",
+    "birthday": "08/11/1968"
+  }
 }
