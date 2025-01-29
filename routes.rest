@@ -62,11 +62,11 @@ POST https://cse341-web-services-vw.onrender.com/contacts HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Bart",
-    "lastName": "Mancuso",
-    "email": "bart.mancuso@email.com",
-    "favoriteColor": "silver",
-    "birthday": "03/18/1963"
+    "firstName": "Ronald",
+    "lastName": "Jones",
+    "email": "ronald.jones@email.com",
+    "favoriteColor": "orange",
+    "birthday": "06/13/1971"
 }
 
 ### PUT contact
@@ -76,10 +76,10 @@ content-type: application/json
 {
     "firstName": "Ding",
     "lastName": "Chavez",
-    "email": "ding.chavez@email.com",
-    "favoriteColor": "od green",
-    "birthday": "04/15/1977"
+    "email": "dchavez@email.com",
+    "favoriteColor": "green",
+    "birthday": "04/15/1999"
 }
 
 ### DELETE contact
-DELETE https://cse341-web-services-vw.onrender.com/contacts/679450f4c7d32e9362bddbb5 HTTP/1.1
+DELETE https://cse341-web-services-vw.onrender.com/contacts/67950dd0c49dda350b4a38e9 HTTP/1.1

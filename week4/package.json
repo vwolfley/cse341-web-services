@@ -1,0 +1,54 @@
+{
+  "name": "temple-api",
+  "version": "1.0.0",
+  "description": "LDS Temple API for BYU-Idaho CSE 341 student projects",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "swagger": "node ./swagger.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanbirch/temple-api.git"
+  },
+  "author": "Nathan Birch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathanbirch/temple-api/issues"
+  },
+  "homepage": "https://github.com/nathanbirch/temple-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+    "swagger-autogen": "^2.23.7",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "eslint": "^9.18.0",
+    "eslint-config-prettier": "^10.0.1",
+    "globals": "^15.14.0",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.4.2"
+  },
+  "prettier": {
+    "plugins": []
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "prettier"
+    ],
+    "parserOptions": {
+      "ecmaVersion": "latest"
+    },
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true
+    }
+  }
+}
