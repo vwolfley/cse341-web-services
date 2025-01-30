@@ -23,6 +23,10 @@ contactsController.getData = async function (req, res, next) {
 
 // Get all contacts
 contactsController.getAll = async (req, res, next) => {
+  /*
+    #swagger.summary = Get all contacts
+    #swagger.description = 'Returns all temples stored in the database.'
+  */
   try {
     const result = await mongodb.getDb().db().collection("contacts").find();
     result.toArray().then((lists) => {

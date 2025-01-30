@@ -7,6 +7,10 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const MongoClient = require("mongodb").MongoClient;
 
+// Swagger
+const swaggerUi = require("swagger-ui-express");
+const swaggerDocument = require("./swagger-output.json");
+
 // Local modules
 const mongodb = require("./src/database/mongo-connect");
 
@@ -15,6 +19,8 @@ const app = express();
 
 // Middlewares
 app.use(bodyParser.json());
+// Swagger
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument))
 
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");

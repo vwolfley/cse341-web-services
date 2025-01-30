@@ -1,9 +1,9 @@
 {
   "name": "cse341-web-services",
-  "version": "1.2.0",
-  "date": "2025-01-24",
+  "version": "1.4.0",
+  "date": "2025-01-30",
   "create-date": "2025-01-09",
-  "description": "CSE 341 Web Services",
+  "description": "CSE 341 Web Services Winter 2025",
   "keywords": [],
   "author": "vern wolfley",
   "repository": {
@@ -12,9 +12,10 @@
   },
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "dev": "open http://localhost:8080 && nodemon app.js"
+    "dev": "open http://localhost:8080 && nodemon app.js",
+    "swagger": "node ./swagger.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "body-parser": "^1.20.3",
@@ -28,7 +29,9 @@
     "eslint-config-prettier": "^10.0.1",
     "globals": "^15.14.0",
     "nodemon": "^3.1.9",
-    "prettier": "^3.4.2"
+    "prettier": "^3.4.2",
+    "swagger-autogen": "^2.23.7",
+    "swagger-ui-express": "^5.0.1"
   },
   "prettier": {
     "plugins": []
