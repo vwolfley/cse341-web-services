@@ -48,7 +48,7 @@ contactsController.getById = async (req, res, next) => {
   }
 };
 
-// Post - Insert contact into the database
+// POST - Insert contact into the database
 contactsController.createContact = async (req, res, next) => {
   try {
     const contact = {
@@ -72,7 +72,7 @@ contactsController.createContact = async (req, res, next) => {
   }
 };
 
-// Put - update contact in the database
+// PUT - update contact in the database
 contactsController.updateContactById = async (req, res, next) => {
   try {
     const userId = ObjectId.createFromHexString(req.params.id);
@@ -99,13 +99,13 @@ contactsController.updateContactById = async (req, res, next) => {
   }
 };
 
-// Delete - delete contact from the database
+// DELETE - delete contact from the database
 contactsController.deleteContactById = async (req, res, next) => {
   try {
     const userId = ObjectId.createFromHexString(req.params.id);
     const response = await mongodb.getDb().db().collection("contacts").deleteOne({ _id: userId });
     if (response.deletedCount > 0) {
-      res.status(204).send();
+      res.status(200).send();
     } else {
       res.status(404).json({ message: "Contact not found.", error: response.error });
     }
