@@ -20,10 +20,12 @@ const app = express();
 // Middlewares
 app.use(bodyParser.json());
 // Swagger
-app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument))
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "*");
+  const allowedOrigin =
+    process.env.NODE_ENV === "production" ? "https://cse341-web-services-vw.onrender.com" : "*";
+  res.setHeader("Access-Control-Allow-Origin", allowedOrigin);
   next();
 });
 
