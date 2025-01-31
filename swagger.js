@@ -6,6 +6,14 @@ const doc = {
     version: "1.4.0",
     title: "My CSE 341 Contacts API",
     description: "Contacts API for BYU-Idaho CSE 341 Winter 2025",
+    contact: {
+      name: "API Support - Vern Wolfley",
+      email: "wol21023@byui.edu",
+    },
+    license: {
+      name: "MIT",
+      url: "https://opensource.org/license/mit"
+    },
   },
   servers: [
     {
@@ -16,7 +24,7 @@ const doc = {
       url: "https://cse341-web-services-vw.onrender.com",
       description: "Production server",
     },
-  ]
+  ],
 };
 
 // Output file
