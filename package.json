@@ -12,8 +12,8 @@
   },
   "main": "app.js",
   "scripts": {
-    "start": "NODE_ENV=production node app.js",
-    "dev": "NODE_ENV=development open http://localhost:8080 && nodemon app.js",
+    "start": "node app.js",
+    "dev":  "open http://localhost:8080 && nodemon app.js",
     "swagger": "node ./swagger.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
