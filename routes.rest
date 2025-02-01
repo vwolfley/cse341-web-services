@@ -50,6 +50,10 @@ GET https://cse341-web-services-vw.onrender.com/
 ###
 GET https://cse341-web-services-vw.onrender.com/johnclark
 
+### Test Swagger UI
+GET https://cse341-web-services-vw.onrender.com/api-docs
+
+
 ### Get all contacts
 GET https://cse341-web-services-vw.onrender.com/contacts
 

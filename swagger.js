@@ -17,13 +17,13 @@ const doc = {
   },
   servers: [
     {
-      url: "http://localhost:8080",
-      description: "Local development server",
-    },
-    {
       url: "https://cse341-web-services-vw.onrender.com",
       description: "Production server",
     },
+    {
+      url: "http://localhost:8080",
+      description: "Local development server",
+    }
   ],
 };
 

@@ -101,8 +101,8 @@ contactsController.createContact = async (req, res, next) => {
  **********************************************/
 contactsController.updateContactById = async (req, res, next) => {
   /*
-    #swagger.summary = 'Update a contact by id'
-    #swagger.description = 'Update a contact in the database by id'
+    #swagger.summary = 'Update a existing contact by id'
+    #swagger.description = 'Update a existing contact in the database by id'
   */
   try {
     const userId = ObjectId.createFromHexString(req.params.id);
