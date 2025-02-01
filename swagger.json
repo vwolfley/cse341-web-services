@@ -15,12 +15,12 @@
   },
   "servers": [
     {
-      "url": "http://localhost:8080",
-      "description": "Local development server"
-    },
-    {
       "url": "https://cse341-web-services-vw.onrender.com",
       "description": "Production server"
+    },
+    {
+      "url": "http://localhost:8080",
+      "description": "Local development server"
     }
   ],
   "paths": {
@@ -136,8 +136,8 @@
         }
       },
       "put": {
-        "summary": "Update a contact by id",
-        "description": "Update a contact in the database by id",
+        "summary": "Update a existing contact by id",
+        "description": "Update a existing contact in the database by id",
         "parameters": [
           {
             "name": "id",
